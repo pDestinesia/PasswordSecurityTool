@@ -86,7 +86,7 @@ Lütfen bu yazıyı kaldırmayın
 		elif "ü"  in Pass:
 			print("Özel Karakter Olmamalı")
 		else:
-			with open(r"/root/Masaüstü/MyTools/MakeMoneyTools/PasswordTools/WordList/Gmail.txt", 'r') as f:
+			with open(r"WordList/Gmail.txt", 'r') as f:
 				bul = 0
 				for index,line in enumerate(f):
 					if Pass in line:
