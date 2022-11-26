@@ -11,7 +11,7 @@
     
     cd PasswordSecurityTool
     
-    python Kali.py
+    python2 Kali.py
 
 # Termux Kurulum
     pkg install git
@@ -22,7 +22,7 @@
     
     cd PasswordSecurityTool
     
-    python Termux.py
+    python2 Termux.py
     
     
 **My Blog: https://hacktooltr.blogspot.com/**
